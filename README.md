@@ -2,6 +2,14 @@
 
 A one-day Titanium Alloy Tutorial.
 
+## Assignment
+
+1. [Switch](http://docs.appcelerator.com/titanium/latest/#!/guide/Git) to the `zero` branch.
+2. Run the app.
+3. Add a [Label](http://docs.appcelerator.com/titanium/latest/#!/api/Titanium.UI.Label) saying `Hello world`.
+4. Give the label a [class](http://docs.appcelerator.com/titanium/latest/#!/guide/Alloy_Styles_and_Themes)
+5. Use the class to make the color red.
+
 ## License
 
   The MIT License (MIT)
