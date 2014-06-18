@@ -1,0 +1,24 @@
+"Window": {
+  backgroundColor: 'white'
+}
+
+"#title" : {
+  color: 'black',
+  font: {
+    fontFamily: 'Arial',
+    fontSize: '20dp',
+    fontWeight: 'bold'
+  },
+  left: 15,
+  top: 0
+}
+
+"#excerpt" : {
+  color: 'gray',
+  font: {
+    fontFamily: 'Arial',
+    fontSize: 14
+  },
+  left: 15, 
+  top: 25
+}
