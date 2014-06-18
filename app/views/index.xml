@@ -1,6 +1,6 @@
 <Alloy>
 
-  <NavigationWindow platform="ios">
+  <NavigationWindow module="xp.ui">
 
     <Window title="List">
 
@@ -9,7 +9,7 @@
         <Templates>
 
           <ItemTemplate name="template">
-            <Label bindId="info" id="title" />
+            <Label bindId="title" id="title" />
             <Label bindId="excerpt" id="excerpt" />
           </ItemTemplate>
 
