@@ -1,15 +1,17 @@
 <Alloy>
 
-  <NavigationWindow platform="ios">
+  <Collection src="feed" />
+
+  <NavigationWindow module="xp.ui">
 
     <Window title="List">
 
-      <ListView id="listView" defaultItemTemplate="template" onItemclick="openDetail">
+      <ListView id="listView" dataCollection="feed" defaultItemTemplate="template" onItemclick="openDetail">
 
         <Templates>
 
           <ItemTemplate name="template">
-            <Label bindId="info" id="title" />
+            <Label bindId="title" id="title" />
             <Label bindId="excerpt" id="excerpt" />
           </ItemTemplate>
 
