@@ -2,14 +2,14 @@
 
 A one-day Titanium Alloy Tutorial.
 
-## Assignment: listview
+## Assignment: navwin
 
-1. Study the [ListViews guide](http://docs.appcelerator.com/titanium/latest/#!/guide/ListViews).
-2. Compare the [API doc](http://docs.appcelerator.com/titanium/latest/#!/api/Titanium.UI.ListView) classic & Alloy examples.
-3. [Switch](http://docs.appcelerator.com/titanium/latest/#!/guide/Git) to the `listview` branch.
-4. Try the [first API doc Alloy example](http://docs.appcelerator.com/titanium/latest/#!/api/Titanium.UI.ListView) JS & TSS.
-5. Compare `Resources/iphone/alloy/controllers/index.js` with the classic examples.
-6. Remove the blank icons, align the text left, reduce the sections to one and remove the `headerTitle` of that section.
+1. Study the [NavigationWindow API docs](http://docs.appcelerator.com/titanium/latest/#!/api/Titanium.UI.iOS.NavigationWindow).
+2. Switch to the `navwin` branch and run it.
+3. Wrap the Window in a NavigationWindow
+4. Add an [itemclick](http://docs.appcelerator.com/titanium/latest/#!/api/Titanium.UI.ListView-event-itemclick) listener to the ListView.
+5. [Create new detail](http://docs.appcelerator.com/titanium/latest/#!/guide/Alloy_Tasks) controller and make it a Window. Give both windows a title.
+6. On click, [create a detail controller instance and open the window via the NavWin](http://docs.appcelerator.com/titanium/latest/#!/api/Titanium.UI.iOS.NavigationWindow).
 
 ## License
 
