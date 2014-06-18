@@ -1,25 +1,33 @@
 <Alloy>
-    <Window>
-        <ListView id="listView" defaultItemTemplate="template">
 
-            <Templates>
+  <NavigationWindow platform="ios">
 
-                <ItemTemplate name="template">
-                    <Label bindId="info" id="title" />
-                    <Label bindId="excerpt" id="excerpt" />
-                </ItemTemplate>
+    <Window title="List">
 
-            </Templates>
+      <ListView id="listView" defaultItemTemplate="template" onItemclick="openDetail">
 
-            <ListSection>
-                <ListItem title:text="Apple" excerpt:text="Manzana" />
-                <ListItem title:text="Banana" excerpt:text="Banana" />
-                <ListItem title:text="Carrot" excerpt:text="Zanahoria" />
-                <ListItem title:text="Potato" excerpt:text="Patata" />
-                <ListItem title:text="Corn" excerpt:text="Maiz" />
-                <ListItem title:text="Rice" excerpt:text="Arroz" />
-            </ListSection>
+        <Templates>
 
-        </ListView>
+          <ItemTemplate name="template">
+            <Label bindId="info" id="title" />
+            <Label bindId="excerpt" id="excerpt" />
+          </ItemTemplate>
+
+        </Templates>
+
+        <ListSection>
+          <ListItem title:text="Apple" excerpt:text="Manzana" />
+          <ListItem title:text="Banana" excerpt:text="Banana" />
+          <ListItem title:text="Carrot" excerpt:text="Zanahoria" />
+          <ListItem title:text="Potato" excerpt:text="Patata" />
+          <ListItem title:text="Corn" excerpt:text="Maiz" />
+          <ListItem title:text="Rice" excerpt:text="Arroz" />
+        </ListSection>
+
+      </ListView>
+
     </Window>
+
+  </NavigationWindow>
+
 </Alloy>
