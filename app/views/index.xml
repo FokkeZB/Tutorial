@@ -4,9 +4,9 @@
 
   <NavigationWindow module="xp.ui">
 
-    <Window title="List">
+    <Window title="tiDev">
 
-      <ListView id="listView" dataCollection="feed" defaultItemTemplate="template" onItemclick="openDetail">
+      <ListView id="listView" defaultItemTemplate="template" onItemclick="openDetail">
 
         <Templates>
 
@@ -17,13 +17,8 @@
 
         </Templates>
 
-        <ListSection>
-          <ListItem title:text="Apple" excerpt:text="Manzana" />
-          <ListItem title:text="Banana" excerpt:text="Banana" />
-          <ListItem title:text="Carrot" excerpt:text="Zanahoria" />
-          <ListItem title:text="Potato" excerpt:text="Patata" />
-          <ListItem title:text="Corn" excerpt:text="Maiz" />
-          <ListItem title:text="Rice" excerpt:text="Arroz" />
+        <ListSection dataCollection="feed">
+          <ListItem itemId="{id}" title:text="{title}" excerpt:text="{excerpt}" />
         </ListSection>
 
       </ListView>
