@@ -2,13 +2,14 @@
 
 A one-day Titanium Alloy Tutorial.
 
-## Assignment: window
+## Assignment: listview
 
-1. [Switch](http://docs.appcelerator.com/titanium/latest/#!/guide/Git) to the `window` branch.
-2. Run the app.
-3. Add a [Label](http://docs.appcelerator.com/titanium/latest/#!/api/Titanium.UI.Label) saying `Hello world`.
-4. Give the label a [class](http://docs.appcelerator.com/titanium/latest/#!/guide/Alloy_Styles_and_Themes)
-5. Use the class to make the color red.
+1. Study the [ListViews guide](http://docs.appcelerator.com/titanium/latest/#!/guide/ListViews).
+2. Compare the [API doc](http://docs.appcelerator.com/titanium/latest/#!/api/Titanium.UI.ListView) classic & Alloy examples.
+3. [Switch](http://docs.appcelerator.com/titanium/latest/#!/guide/Git) to the `listview` branch.
+4. Try the [first API doc Alloy example](http://docs.appcelerator.com/titanium/latest/#!/api/Titanium.UI.ListView) JS & TSS.
+5. Compare `Resources/iphone/alloy/controllers/index.js` with the classic examples.
+6. Remove the blank icons, align the text left, reduce the sections to one and remove the `headerTitle` of that section.
 
 ## License
 

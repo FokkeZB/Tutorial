@@ -1,1 +1,1 @@
-$.win.open();
+$.index.open();
