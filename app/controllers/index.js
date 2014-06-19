@@ -16,3 +16,11 @@ function openDetail(e) {
   $.index.openWindow(view);
 
 }
+
+function transformFeed(model) {
+  var transformed = model.toJSON();
+  
+  transformed.content = transformed.content.replace(/(<([^>]+)>)/ig, '');
+
+  return transformed;
+}

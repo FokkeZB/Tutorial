@@ -8,6 +8,8 @@
 
       <ListView id="listView" defaultItemTemplate="template" onItemclick="openDetail">
 
+        <SearchBar />
+
         <Templates>
 
           <ItemTemplate name="template">
@@ -17,8 +19,8 @@
 
         </Templates>
 
-        <ListSection dataCollection="feed">
-          <ListItem itemId="{id}" title:text="{title}" excerpt:text="{excerpt}" />
+        <ListSection dataCollection="feed" dataTransform="transformFeed">
+          <ListItem itemId="{id}" title:text="{title}" excerpt:text="{excerpt}" searchableText="{content}" />
         </ListSection>
 
       </ListView>
