@@ -8,8 +8,8 @@ exports.definition = {
       "title": "TEXT"
     },
     adapter: {
-      type: "restapi",
-    },
-    URL: 'http://www.tidev.io/feed/json'
+      type: "json",
+      url: 'http://www.tidev.io/feed/json'
+    }
   }
 };
