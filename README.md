@@ -15,7 +15,6 @@ A one-day Titanium Alloy Tutorial by [Fokke Zandbergen](http://fokkezb.nl).
 	* Don't stick to the (minimal) notes. Share from your experience.
 	* Keep it simple, give information on a need-to-know basis.
 9. When you come across an assignment:
-	* Make people aware of the `README.md` in the assignment-branches.
 	* Walk around and point people in give (minimal) hints.
 	* Open the branch on the big screen so you can show hints.
 	* When time's up, open and run the next branch to show the result.
