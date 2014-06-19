@@ -1,12 +1,16 @@
-Alloy.Collections.feed.fetch();
-
 $.index.open();
+
+var collection = Alloy.Collections.feed;
+collection.fetch();
 
 function openDetail(e) {
 
-  console.debug(e);
+  var controller = Alloy.createController('detail', {
 
-  var controller = Alloy.createController('detail');
+    model: collection.get(e.itemId)
+
+  });
+
   var view = controller.getView();
 
   $.index.openWindow(view);
