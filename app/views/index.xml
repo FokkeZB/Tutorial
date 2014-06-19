@@ -1,0 +1,32 @@
+<Alloy>
+
+  <Collection src="feed" />
+
+  <NavigationWindow module="xp.ui">
+
+    <Window title="tiDev">
+
+      <ListView id="listView" defaultItemTemplate="template" onItemclick="openDetail">
+
+        <SearchBar />
+
+        <Templates>
+
+          <ItemTemplate name="template">
+            <Label bindId="title" id="title" />
+            <Label bindId="excerpt" id="excerpt" />
+          </ItemTemplate>
+
+        </Templates>
+
+        <ListSection dataCollection="feed" dataTransform="transformFeed">
+          <ListItem itemId="{id}" title:text="{title}" excerpt:text="{excerpt}" searchableText="{content}" />
+        </ListSection>
+
+      </ListView>
+
+    </Window>
+
+  </NavigationWindow>
+
+</Alloy>
