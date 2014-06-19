@@ -7,7 +7,6 @@ function openDetail(e) {
 
   var controller = Alloy.createController('detail', {
 
-    model: collection.get(e.itemId)
 
   });
 
