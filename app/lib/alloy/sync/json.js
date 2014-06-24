@@ -5,6 +5,11 @@ function Sync(method, model, opts) {
 
   } else {
 
+    if (!Ti.Network.online) {
+      opts.success(require('feed').data);
+      return;
+    }
+
     var xhr = Ti.Network.createHTTPClient({
 
       onload: function() {
