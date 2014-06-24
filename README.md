@@ -9,16 +9,22 @@ A one-day Titanium Alloy Tutorial by [Fokke Zandbergen](http://fokkezb.nl).
 3. Personalize the slide where you introduce the tutors.
 4. Go through all slides and assignments yourself, preferably using Studio.
 5. Ask all students to try to install Titanium (Studio) before class to save time.
-6. Make sure you have a beamer, as well as connected speakers for the movie.
-7. Enlarge the font of your console and Studio so they are readable on a big screen.
-8. Go through the slides:
+6. Prepare a USB stick for the people who didn't come prepared with:
+	* Studio: [Mac](http://titanium-studio.s3.amazonaws.com/latest/Titanium_Studio.dmg), [Window](http://titanium-studio.s3.amazonaws.com/latest/Titanium_Studio.exe)
+	* [Oracle JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+	* [Android SDK](http://developer.android.com/sdk/index.html) > *DOWNLOAD FOR OTHER PLATFORMS* > *SDK Tools Only*
+	* [Xcode](https://developer.apple.com/downloads/index.action#) > Search for: *XCode*
+	* A copy of your own Android SDK folder containing some API's.
+7. Make sure you have a beamer, as well as connected speakers for the movie.
+8. Enlarge the font of your console and Studio so they are readable on a big screen.
+9. Go through the slides:
 	* Don't stick to the (minimal) notes. Share from your experience.
 	* Keep it simple, give information on a need-to-know basis.
-9. When you come across an assignment:
+10. When you come across an assignment:
 	* Walk around and point people in give (minimal) hints.
 	* Open the branch on the big screen so you can show hints.
 	* When time's up, open and run the next branch to show the result.
-10. Take your time. If you run out of it, just skip an assignment.
+11. Take your time. If you run out of it, just skip an assignment.
 
 ## License
 
