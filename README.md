@@ -15,16 +15,17 @@ A one-day Titanium Alloy Tutorial by [Fokke Zandbergen](http://fokkezb.nl).
 	* [Android SDK](http://developer.android.com/sdk/index.html) > *DOWNLOAD FOR OTHER PLATFORMS* > *SDK Tools Only*
 	* [Xcode](https://developer.apple.com/downloads/index.action#) > Search for: *XCode*
 	* A copy of your own Android SDK folder containing some API's.
-7. Make sure you have a beamer, as well as connected speakers for the movie.
-8. Enlarge the font of your console and Studio so they are readable on a big screen.
-9. Go through the slides:
+7. Find a nice gift for the winner of the bonus assignment ;)
+8. Make sure you have a beamer, as well as connected speakers for the movie.
+9. Enlarge the font of your console and Studio so they are readable on a big screen.
+10. Go through the slides:
 	* Don't stick to the (minimal) notes. Share from your experience.
 	* Keep it simple, give information on a need-to-know basis.
-10. When you come across an assignment:
+11. When you come across an assignment:
 	* Walk around and point people in give (minimal) hints.
 	* Open the branch on the big screen so you can show hints.
 	* When time's up, open and run the next branch to show the result.
-11. Take your time. If you run out of it, just skip an assignment.
+12. Take your time. If you run out of it, just skip an assignment.
 
 ## License
 
