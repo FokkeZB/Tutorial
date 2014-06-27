@@ -29,7 +29,7 @@ A one-day Titanium Alloy Tutorial by [Fokke Zandbergen](http://fokkezb.nl).
 
 ## License
 
-You are free to teach this tutorial and make money doing, but I kindly ask you to include the original copyright, a link to the original repository and submit pull requests for any corrections, additions and other improvements so we can all benefit from them. Thank you.
+You are free to teach this tutorial and make money doing so, but I kindly ask you to include the original copyright, a link to the original repository and submit pull requests for any corrections, additions and other improvements so we can all benefit from them. Thank you.
 
 	The MIT License (MIT)
 	
