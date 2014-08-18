@@ -12,7 +12,7 @@
 	<navbar-hidden>false</navbar-hidden>
 	<analytics>true</analytics>
 	<guid>3b002d63-0b62-4522-b6be-32d1707920d8</guid>
-	<property name="ti.ui.defaultunit" type="string">dp</property>
+	<property name="ti.ui.defaultunit">dp</property>
 	<ios>
 		<plist>
 			<dict>
@@ -38,8 +38,7 @@
 			</dict>
 		</plist>
 	</ios>
-	<android xmlns:android="http://schemas.android.com/apk/res/android">
-	</android>
+	<android xmlns:android="http://schemas.android.com/apk/res/android" />
 	<modules>
 	</modules>
 	<deployment-targets>
@@ -49,7 +48,7 @@
 		<target device="iphone">true</target>
 		<target device="mobileweb">false</target>
 	</deployment-targets>
-	<sdk-version>3.2.3.GA</sdk-version>
+	<sdk-version>3.3.0.GA</sdk-version>
   <plugins>
   	<plugin version="1.0">ti.alloy</plugin>
   </plugins>
