@@ -12,7 +12,7 @@
 	<navbar-hidden>false</navbar-hidden>
 	<analytics>true</analytics>
 	<guid>3b002d63-0b62-4522-b6be-32d1707920d8</guid>
-	<property name="ti.ui.defaultunit" type="string">dp</property>
+	<property name="ti.ui.defaultunit">dp</property>
 	<ios>
 		<plist>
 			<dict>
