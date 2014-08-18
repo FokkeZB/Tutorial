@@ -38,7 +38,8 @@
 			</dict>
 		</plist>
 	</ios>
-	<android xmlns:android="http://schemas.android.com/apk/res/android" />
+	<android xmlns:android="http://schemas.android.com/apk/res/android">
+	</android>
 	<modules>
 	</modules>
 	<deployment-targets>
