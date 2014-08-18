@@ -16,4 +16,6 @@ var style = '
 
 var body = model.get('content');
 
-$.webView.html = style + body;
+var htmlTemplate = _.template('<!DOCTYPE HTML><html lang="en-US"><head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">    <meta charset="UTF-8"><title></title><%= style %></head><body><%= content %></body></html>');
+
+$.webView.html = htmlTemplate({style:style, content:body});
