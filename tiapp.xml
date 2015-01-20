@@ -6,7 +6,7 @@
     <publisher>Fokke Zandbergen</publisher>
     <url>https://github.com/FokkeZB/Tutorial</url>
     <description>Titanium Alloy Tutorial</description>
-    <copyright>Copyright 2014 Fokke Zandbergen</copyright>
+    <copyright>Copyright 2014-2015 Fokke Zandbergen</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
