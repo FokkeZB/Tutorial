@@ -33,7 +33,7 @@ You are free to teach this tutorial and make money doing so, but I kindly ask yo
 
 	The MIT License (MIT)
 	
-	Copyright (c) 2014 Fokke Zandbergen
+	Copyright (c) 2014-2015 Fokke Zandbergen
 	
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
