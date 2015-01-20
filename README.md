@@ -2,6 +2,8 @@
 
 A one-day Titanium Alloy Tutorial by [Fokke Zandbergen](http://fokkezb.nl).
 
+This tutorial is no official [Appcelerator](http://appcelerator.com) training material!
+
 ## How to use
 
 1. Make sure you have enough tutors (1:5) for the class size.
