@@ -6,7 +6,7 @@
   color: 'black',
   font: {
     fontFamily: 'Arial',
-    fontSize: 20,
+    fontSize: 18,
     fontWeight: 'bold'
   },
   left: 15,
@@ -18,7 +18,7 @@
   color: 'gray',
   font: {
     fontFamily: 'Arial',
-    fontSize: 14
+    fontSize: 12
   },
   left: 15, 
   top: 25,
