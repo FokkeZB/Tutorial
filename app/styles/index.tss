@@ -6,19 +6,21 @@
   color: 'black',
   font: {
     fontFamily: 'Arial',
-    fontSize: '20dp',
+    fontSize: 18,
     fontWeight: 'bold'
   },
   left: 15,
-  top: 0
+  top: 5,
+  height: 20,
 }
 
 "#excerpt" : {
   color: 'gray',
   font: {
     fontFamily: 'Arial',
-    fontSize: 14
+    fontSize: 12
   },
   left: 15, 
-  top: 25
+  top: 25,
+  height: 14
 }
