@@ -12,7 +12,7 @@ This tutorial is no official [Appcelerator](http://appcelerator.com) training ma
 4. Go through all slides and assignments yourself, preferably using Studio.
 5. Ask all students to try to install Titanium (Studio) before class to save time.
 6. Prepare a USB stick for the people who didn't come prepared with:
-	* Studio: [Mac](http://titanium-studio.s3.amazonaws.com/latest/Titanium_Studio.dmg), [Window](http://titanium-studio.s3.amazonaws.com/latest/Titanium_Studio.exe)
+	* Studio: [Mac](http://titanium-studio.s3.amazonaws.com/latest/Titanium_Studio.dmg), [Windows](http://titanium-studio.s3.amazonaws.com/latest/Titanium_Studio.exe)
 	* [Oracle JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 	* [Android SDK](http://developer.android.com/sdk/index.html) > *DOWNLOAD FOR OTHER PLATFORMS* > *SDK Tools Only*
 	* [Xcode](https://developer.apple.com/downloads/index.action#) > Search for: *XCode*
