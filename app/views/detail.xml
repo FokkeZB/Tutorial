@@ -2,8 +2,8 @@
 
 	<Window title="Detail">
 
-    <WebView id="webView" />
+    	<WebView id="webView" />
 
-  </Window>
+ 	</Window>
 
 </Alloy>
