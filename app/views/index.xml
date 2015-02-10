@@ -1,5 +1,5 @@
 <Alloy>
 	<Window backgroundColor="white">
-    <ListView />
+    <ListView></ListView>
   </Window>
 </Alloy>
